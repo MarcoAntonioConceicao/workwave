@@ -1,0 +1,26 @@
+/* Definindo Gilroy Black */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900; /* Pesado */
+  font-style: normal;
+}
+
+/* Definindo Gilroy Regular */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+/* Aplicando as fontes globalmente */
+body {
+  font-family: 'Gilroy', sans-serif; /* Define Gilroy como padrão */
+  font-weight: 400; /* Regular para textos */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy', sans-serif; /* Define Gilroy para títulos */
+  font-weight: 900; /* Black para títulos */
+}

@@ -1,0 +1,65 @@
+/* Tela inicial com fundo */
+.home-page.home-background {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/BG.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Tela do TaskManager com fundo */
+.home-page.dashboard-background {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/BG3.png") no-repeat center center fixed; /* Novo fundo */
+  background-size: cover;
+}
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .welcome-logo {
+    width: 550px;
+    filter: brightness(0) invert(1);
+  }
+  
+  .welcome-text {
+    width: 500px;
+  }
+  
+  .login-button {
+    width: 200px;
+    height: 60px;
+    background: url("../assets/LOGIN.png") no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .login-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/BG2.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
