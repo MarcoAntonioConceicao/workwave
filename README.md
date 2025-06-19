@@ -1,6 +1,6 @@
 # ***Workwave - O Seu Gerenciador de Tarefas*** 🚀
 
-![Workwave Logo](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/public/workwave_logo.png) Workwave é um gerenciador de tarefas ***intuitivo e eficiente***, desenvolvido para ajudar você a organizar suas atividades diárias e acompanhar seu progresso de forma ***simples e visual***. Construído com ***React.js*** para uma experiência de usuário dinâmica, ***Firebase*** para um backend robusto e escalável, e estilizado com ***CSS*** para um design moderno e responsivo.
+Workwave é um gerenciador de tarefas ***intuitivo e eficiente***, desenvolvido para ajudar você a organizar suas atividades diárias e acompanhar seu progresso de forma ***simples e visual***. Construído com ***React.js*** para uma experiência de usuário dinâmica, ***Firebase*** para um backend robusto e escalável, e estilizado com ***CSS*** para um design moderno e responsivo.
 
 ## ✨ ***Recursos***
 
