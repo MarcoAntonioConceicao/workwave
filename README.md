@@ -41,21 +41,7 @@ Para rodar o Workwave em sua máquina local, siga os passos abaixo:
     yarn install
     ```
 
-3.  ***Configuração do Firebase:***
-    * Crie um projeto no [***Firebase Console***](https://console.firebase.google.com/).
-    * Crie um arquivo `.env` na raiz do projeto (se ainda não existir) e adicione suas credenciais do Firebase:
-        ```dotenv
-        REACT_APP_FIREBASE_API_KEY=your_api_key
-        REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-        REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-        REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-        REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-        REACT_APP_FIREBASE_APP_ID=your_app_id
-        REACT_APP_FIREBASE_MEASUREMENT_ID=your_measurement_id
-        ```
-        *Substitua `your_...` pelos valores do seu projeto Firebase. ***Não se esqueça de habilitar a autenticação e o Firestore no console do Firebase.****
-
-4.  ***Inicie a aplicação:***
+3.  ***Inicie a aplicação:***
     ```bash
     npm start
     # ou
